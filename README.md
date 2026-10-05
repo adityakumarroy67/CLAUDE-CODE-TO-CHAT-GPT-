@@ -7,11 +7,15 @@ Free, no API key, nothing to install except Python 3.
 
 ## Install
 
+1. On this GitHub page, click **Code → Download ZIP** and unzip it somewhere it can stay
+   (the hook points to this folder — if you move it, run the install again).
+2. Open a terminal in that folder and run:
+
 ```
 python explain.py --install
 ```
 
-Restart Claude Code. This adds one hook to `~/.claude/settings.json` (a backup is saved next to it).
+3. Restart Claude Code. This adds one hook to `~/.claude/settings.json` (a backup is saved next to it).
 Remove it any time with `python explain.py --uninstall`.
 
 ## Use (inside Claude Code)
